@@ -1,4 +1,7 @@
-# The Git Repo for [r/placetux](reddit.com/r/placetux) on [r/place](reddit.com/r/place)
+# ***THE FINAL DECISION HAS BEEN MADE***
+We will be using the picture located inside 51x79. And we will be drawing it at around the same place like 2017, but to the left, to avoid r/TheBlueCorner. So middle left, not too close to the center, or the edge. ***NOTE THAT THIS IS NOW FIXED!***
+
+## The Git Repo for [r/placetux](reddit.com/r/placetux) on [r/place](reddit.com/r/place)
 We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place event
 
 ### How to create Pixel Art?
