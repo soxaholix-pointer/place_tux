@@ -24,4 +24,8 @@
 
 - Package managers make installing software a breeze.
 
+- You don't have a giant, monoply, money-seeking company forcing you to do what it tells you to do, making you the product (im looking at you Microsoft and Apple...)
+
+- ***TONS*** of support for Linux, ask a question, and in a few minutes people will be responding.
+
 - Countless other reasons.
