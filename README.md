@@ -2,7 +2,7 @@
 We will be using the picture named ***GloriousOfficialFinal51x79FlatTux.png*** (made by 8Miles8). And we will be drawing it at around the same place like 2017, but to the left side of the canvas, to avoid r/TheBlueCorner. So mid-left, not too close to the center, or the edge. ***NOTE THAT THESE DECISIONS ARE UNCHANGING AND FIXED!***
 
 ## The Git Repo for [r/placetux](reddit.com/r/placetux) on [r/place](reddit.com/r/place)
-We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place event
+We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place event.
 
 ### How to create Pixel Art?
 This [video](https://www.youtube.com/watch?v=u4MWAj6ukm0) gets you started with creating pixel art on Krita. Alternatively, you can use any other pixel art editor (such as Aseprite, Libresprite, Pixelorama, Lospec, Pixilart, Piskel), even GIMP, and be sure to ***EXPORT IT*** into a PNG file, into their respective folders. Be sure to also use the correct palette, that is located at root (palette.png). ***Stick to the PNG files already there! Don't add more!***
