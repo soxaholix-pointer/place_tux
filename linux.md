@@ -1,1 +1,0 @@
-# Why linux is best
