@@ -1,4 +1,29 @@
-# ***THE FINAL DECISION HAS BEEN MADE***
+# [r/place](https://www.reddit.com/r/place/?cx=36&cy=736&px=12) has started!
+
+Our Canvas stretches:
+```
+(20,679)        (71,679)
+
+(20,758)        (71,758)
+```
+
+## Priorities!
+
+[x] Create Canvas Border
+
+[ ] Create Tux Border
+
+[ ] Draw GNU/LINUX Text
+
+[ ] Draw Distro Logos
+
+[ ] Color Tux
+
+[ ] Clean the Area
+
+[ ] Defend the Canvas
+
+# ***THE FINAL DECISION ON ART HAS BEEN MADE***
 We will be using the picture named ***GloriousOfficialFinal51x79FlatTux.png*** (made by 8Miles8). And we will be drawing it at around the same place like 2017, but to the left side of the canvas, to avoid r/TheBlueCorner. So mid-left, not too close to the center, or the edge. ***NOTE THAT THESE DECISIONS ARE UNCHANGING AND FIXED!***
 
 <img src="https://raw.githubusercontent.com/soxaholix-pointer/place_tux/main/GloriousOfficialFinal51x79FlatTux.png" width="250">
