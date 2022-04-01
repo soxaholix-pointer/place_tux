@@ -11,15 +11,15 @@ Our Canvas stretches:
 
 - [x] Create Canvas Border
 
-- [ ] Create Tux Border
+- [x] Create Tux Border
 
-- [ ] Draw GNU/LINUX Text
+- [x] Draw GNU/LINUX Text
 
-- [ ] Draw Distro Logos
+- [x] Draw Distro Logos
 
-- [ ] Color Tux
+- [x] Color Tux
 
-- [ ] Clean the Area
+- [x] Clean the Area
 
 - [ ] Defend the Canvas
 
