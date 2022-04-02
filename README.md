@@ -9,7 +9,7 @@ Our Canvas stretches:
 
 ## Tools:
 
-The https://github.com/r-PlaceTux/Overlay tool helps detect wrongly colored pixels and suggest the correct colour. Restart the browser after after installation of the extension.
+The https://github.com/r-PlaceTux/Overlay tool helps detect wrongly colored pixels and suggest the correct colour. Restart the browser after installation of the extension.
 
 ## Strategy:
 
