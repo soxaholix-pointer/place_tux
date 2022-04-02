@@ -15,8 +15,15 @@ new = orig.resize((orig.size[0]*scale, orig.size[1]*scale), resample=Image.NEARE
 draw = ImageDraw.Draw(new)
 font = ImageFont.truetype("LiberationMono-Bold.ttf", size=14)
 for x, y in it.product(range(xbounds[1] - xbounds[0]), range(ybounds[1] - ybounds[0])):
-    draw.text((xoffset + x*scale*grid, yoffset + y*scale*grid), f"{x + xbounds[0]}", font=font, fill="#666")
-    draw.text((xoffset + x*scale*grid, yoffset + y*scale*grid + 14), f"{y + ybounds[0]}", font=font, fill="#666")
+    color = orig.getpixel((x,y))
+    if color[3] != 0: #not transparent
+        if color[0] * 0.299 + color[1] * 0.587 + color[2] * 0.114 > 186:
+            textcolor = "black"
+        else:
+            textcolor = "white"
+
+        draw.text((xoffset + x*scale*grid, yoffset + y*scale*grid), f"{x + xbounds[0]}", font=font, fill=textcolor)
+        draw.text((xoffset + x*scale*grid, yoffset + y*scale*grid + 14), f"{y + ybounds[0]}", font=font, fill=textcolor)
 
 for x in range(xbounds[1] - xbounds[0]):
     draw.line((x*scale*grid, 0, x*scale*grid, ybounds[1]*scale*grid), fill="black")
