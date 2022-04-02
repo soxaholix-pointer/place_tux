@@ -20,7 +20,7 @@
 
 - Many, many options to choose from, to customize it.
 
-- You get to brag about how smart you are when a Windoze user sees you "hAcKIng".
+- You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use arch btw).
 
 ## Its Powerful and secure.
 
