@@ -7,6 +7,14 @@ Our Canvas stretches:
 (20,758)        (71,758)
 ```
 
+## Tools:
+
+The https://github.com/r-PlaceTux/Overlay tool helps detect wrongly colored pixels and suggest the correct colour. Restart the browser after after installation of the extension.
+
+## Strategy:
+
+Help ward off any forces approaching us and fix any logo being vandalised.
+
 ## Priorities!
 
 - [x] Create Canvas Border
