@@ -10,7 +10,7 @@ yoffset = 2
 scale = 32
 grid = 1
 
-orig = Image.open("tux.png")
+orig = Image.open("GloriousOfficialFinal52x80FlatTux.png")
 new = orig.resize((orig.size[0]*scale, orig.size[1]*scale), resample=Image.NEAREST)
 draw = ImageDraw.Draw(new)
 font = ImageFont.truetype("LiberationMono-Bold.ttf", size=14)
