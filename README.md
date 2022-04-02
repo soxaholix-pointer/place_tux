@@ -34,7 +34,7 @@ Help ward off any forces approaching us and fix any logo being vandalised.
 # ***THE FINAL DECISION ON ART HAS BEEN MADE***
 We will be using the picture named ***GloriousOfficialFinal51x79FlatTux.png*** (made by 8Miles8). And we will be drawing it at around the same place like 2017, but to the left side of the canvas, to avoid r/TheBlueCorner. So mid-left, not too close to the center, or the edge. ***NOTE THAT THESE DECISIONS ARE UNCHANGING AND FIXED!***
 
-<img src="https://raw.githubusercontent.com/soxaholix-pointer/place_tux/main/GloriousOfficialFinal52x80FlatTux.png" width="250">
+<img src="https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/GloriousOfficialFinal52x80FlatTux.png" width="250">
 
 
 ## The Git Repo for [r/placetux](reddit.com/r/placetux) on [r/place](reddit.com/r/place)
