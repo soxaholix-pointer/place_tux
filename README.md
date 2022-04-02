@@ -37,7 +37,7 @@ We will be using the picture named ***GloriousOfficialFinal51x79FlatTux.png*** (
 <img src="https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/GloriousOfficialFinal52x80FlatTux.png" width="250">
 
 
-## The Git Repo for [r/placetux](reddit.com/r/placetux) on [r/place](reddit.com/r/place)
+## The Git Repo for [r/placetux](https://reddit.com/r/placetux) on [r/place](https://reddit.com/r/place)
 We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place event.
 
 ### How to create Pixel Art?
