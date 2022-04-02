@@ -23,4 +23,4 @@ for x in range(xbounds[1] - xbounds[0]):
 for y in range(ybounds[1] - ybounds[0]):
     draw.line((0, y*scale*grid, xbounds[1]*scale*grid, y*scale*grid), fill="black")
 
-new.save("tux_coords.png")
+new.save("tuxcoords.png")
