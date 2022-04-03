@@ -1,0 +1,8 @@
+{
+  "output_fname": "../.build/overlay_test_tux.png",
+  "width": 1000,
+  "height": 1000,
+  "artwork_groups": [
+    "tux"
+  ]
+}
