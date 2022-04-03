@@ -1,58 +1,40 @@
-# [r/place](https://www.reddit.com/r/place/?cx=36&cy=736&px=12) has started!
+# Tux on [r/place](https://www.reddit.com/r/place/?cx=36&cy=736&px=12)
+
+## Tools
+
+### Overlay
+
+The overlay will render an image above the canvas showing incorrect pixels, if you would like to help out this is your best bet!
+The overlay itself and instructures to install it can be found in the [/overlay](https://github.com/r-PlaceTux/place_tux/tree/main/overlay) directory
+
+### Tux Coords
+
+If you do not wish to install the overlay you can find an image with coords attached [here](https://r-placetux.github.io/place_tux/tux_coords.png).
+
+## Contributing
+
+To contribute make a pull request editing [/artwork/tux/tux.png](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/tux/tux.png). If you are a member of our alliance trying to change your asset make a PR to the related asset in [/artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies). Everything will be stitched together when you PR.
+
+## More information
 
 Our Canvas stretches:
 
 ```
-(20,679)        (71,679)
-
-(20,758)        (71,758)
+(20,679)  (71,679)
+(20,758)  (71,758)
 ```
 
-## Tools:
+## Join us..
 
-The https://github.com/r-PlaceTux/Overlay tool helps detect wrongly colored pixels and suggest the correct colour. Restart the browser after installation of the extension.
-
-## Strategy:
-
-Help ward off any forces approaching us and fix any logo being vandalised.
-
-## Priorities!
-
-- [x] Create Canvas Border
-
-- [x] Create Tux Border
-
-- [x] Draw GNU/LINUX Text
-
-- [x] Draw Distro Logos
-
-- [x] Color Tux
-
-- [x] Clean the Area
-
-- [ ] Defend the Canvas
-
-# **_THE FINAL DECISION ON ART HAS BEEN MADE_**
-
-We will be using the picture named **_GloriousOfficialFinal51x79FlatTux.png_** (made by 8Miles8). And we will be drawing it at around the same place like 2017, but to the left side of the canvas, to avoid r/TheBlueCorner. So mid-left, not too close to the center, or the edge. **_NOTE THAT THESE DECISIONS ARE UNCHANGING AND FIXED!_**
-
-<img src="https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/GloriousOfficialFinal52x80FlatTux.png" width="250">
+At [Discord](https://discord.gg/cYB7GjWNp8), [Matrix](https://matrix.to/#/#placetux:matrix.org), or [Telegram](https://t.me/+ykZ9LXrdFJZkNzRh)
 
 ## The Git Repo for [r/placetux](https://reddit.com/r/placetux) on [r/place](https://reddit.com/r/place)
 
 We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place event.
 
-### How to create Pixel Art?
-
-This [video](https://www.youtube.com/watch?v=u4MWAj6ukm0) gets you started with creating pixel art on Krita. Alternatively, you can use any other pixel art editor (such as Aseprite, Libresprite, Pixelorama, Lospec, Pixilart, Piskel), even GIMP, and be sure to **_EXPORT IT_** into a PNG file, into their respective folders. Be sure to also use the correct palette, that is located at root (palette.png). **_Stick to the PNG files already there! Don't add more!_**
-
 ### Canvas Size?
 
 Ideally we would take up the entire 1000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
-
-### Join us..
-
-At [Discord](https://discord.gg/cYB7GjWNp8), [Matrix](https://matrix.to/#/#placetux:matrix.org), or [Telegram](https://t.me/+ykZ9LXrdFJZkNzRh)
 
 ### Why should I use Linux
 
