@@ -28,7 +28,9 @@ If you prefer not to use the Overlay, you can find an expanded image with coordi
 
 You can propose a fix/modification to the artwork by editing [artwork/tux/tux.png](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/tux/tux.png) and posting a pull request to this repo. After we review it and accept it, the Overlay and other things will get automatically updated.
 
-If you are a member of one of our alliances trying to change your artwork, make a PR with the updated corresponding image in [artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies). To change the anchor point, change modify the x0,y0 values in your entry in [positions.json](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/allies/positions.json).
+If you are a member of one of our alliances trying to change your artwork, make a PR with the updated corresponding image in [artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies)
+
+To change the anchor point of an artwork, modify the x0,y0 values in the corresponding entry in positions.json.
 
 ## More information
 
