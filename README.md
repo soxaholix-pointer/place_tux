@@ -32,6 +32,8 @@ If you are a member of one of our alliances trying to change your artwork, make 
 
 To change the anchor point of an artwork, modify the x0,y0 values in the corresponding entry in positions.json.
 
+You can find the official color palette [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay#color-palette).
+
 ## More information
 
 Our canvas corners:

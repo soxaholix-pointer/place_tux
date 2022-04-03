@@ -20,29 +20,37 @@ If the overlay looks blurry for you, use [this fix](https://r-placetux.github.io
 Overlay and script edits are accepted, but please do not modify the Tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/overlay/compare) and we'll review it.
 
 ## Color Palette
-`#BE0039` dark red  
-`#FF4500` red  
-`#FFA800` orange  
-`#FFD635` yellow  
-`#00A368` dark green  
-`#00CC78` green  
-`#7EED56` light green  
-`#00756F` dark teal  
-`#009EAA` teal  
-`#2450A4` dark blue  
-`#3690EA` blue  
-`#51E9F4` light blue  
-`#493AC1` indigo  
-`#6A5CFF` periwinkle  
-`#811E9F` dark purple  
-`#B44AC0` purple  
-`#FF3881` pink  
-`#FF99AA` light pink  
-`#6D482F` dark brown  
-`#9C6926` brown  
-`#000000` black  
-`#898D90` gray  
-`#D4D7D9` light gray  
+`#6D001A` burgundy
+`#BE0039` dark red
+`#FF4500` red
+`#FFA800` orange
+`#FFD635` yellow
+`#FFF8B8` pale yellow
+`#00A368` dark green
+`#00CC78` green
+`#7EED56` light green
+`#00756F` dark teal
+`#009EAA` teal
+`#00CCC0` light teal
+`#2450A4` dark blue
+`#3690EA` blue
+`#51E9F4` light blue
+`#493AC1` indigo
+`#6A5CFF` periwinkle
+`#94B3FF` lavender
+`#811E9F` dark purple
+`#B44AC0` purple
+`#E4ABFF` pale purple
+`#DE107F` magenta
+`#FF3881` pink
+`#FF99AA` light pink
+`#6D482F` dark brown
+`#9C6926` brown
+`#FFB470` beige
+`#000000` black
+`#515252` dark gray
+`#898D90` gray
+`#D4D7D9` light gray
 `#FFFFFF` white
 
 ## Coordinate Guide
