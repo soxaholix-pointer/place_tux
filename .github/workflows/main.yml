@@ -23,7 +23,6 @@ jobs:
       - name: Copy raw files
         run: |
           cp ./artwork/tux/tux.png ./.build/tux_raw.png
-          cp ./artwork/foss/foss.png ./.build/foss_raw.png
 
       - name: Build tux_coords.png & foss_coords.png
         run: |
