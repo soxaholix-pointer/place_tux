@@ -1,22 +1,23 @@
-A script to project the correct tux design on the [r/place canvas](https://new.reddit.com/r/place/).
+A script to overlay the correct Tux design on the [r/place canvas](https://new.reddit.com/r/place/).
 
 ## Installation
-We provide the overlay through a user script. For more information, check out this [Wikipedia page](https://wikipedia.org/wiki/Userscript).
+
 1. Install the [Violentmonkey](https://violentmonkey.github.io/) addon/extension
     - [Firefox-based](https://addons.mozilla.org/addon/violentmonkey)
     - [Chromium-based](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag) (Opera extension for [CWS compatibility](https://addons.opera.com/extensions/details/install-chrome-extensions/))
     - [Edge](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
-3. Install [the user script](https://r-placetux.github.io/place_tux/userscript.user.js)
+2. Install [the user script](https://r-placetux.github.io/place_tux/userscript.user.js)
 
-## Notes
-### Incorrect Overlay
+## Troublshooting
+
+### Incorrect / outdated Overlay
 Perform a hard refresh by doing `CTRL` + `SHIFT` + `R`. This will clear the cache for the site (will not affect cookies or other site data).
 
 ### Blurry Overlay
-If the overlay looks blurry for you, use [this fix](https://r-placetux.github.io/place_tux/userscript-blurfix.user.js). Note that you'll also need to uninstall the normal version of the overlay.
+If the overlay looks blurry for you, use [this fix](https://r-placetux.github.io/place_tux/userscript-blurfix.user.js). Note that you'll also need to uninstall the normal version of the userscript.
 
-### Contributing
-Overlay and script edits are accepted, but please do not modify the tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/overlay/compare) and we'll review it.
+## Contributing
+Overlay and script edits are accepted, but please do not modify the Tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/overlay/compare) and we'll review it.
 
 ## Color Palette
 `#BE0039` dark red  

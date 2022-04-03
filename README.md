@@ -1,19 +1,34 @@
 # Tux on [r/place](https://www.reddit.com/r/place/?cx=36&cy=736&px=12)
 
+You can reach us directly on [Discord](https://discord.gg/cYB7GjWNp8), [Matrix](https://matrix.to/#/#placetux:matrix.org), or [Telegram](https://t.me/+ykZ9LXrdFJZkNzRh).
+
 ## Tools
 
 ### Overlay
 
-The overlay will render an image above the canvas showing incorrect pixels, if you would like to help out this is your best bet!
-The overlay itself and instructions to install it can be found in the [/overlay](https://github.com/r-PlaceTux/place_tux/tree/main/overlay) directory
+If you would like to help us place Tux, we highly recommend you use our Overlay! It's a [userscript](https://wikipedia.org/wiki/Userscript) that runs through a [browser extension](https://en.wikipedia.org/wiki/Browser_extension) that will render an image on top of the r/place canvas showing incorrect pixels:
 
-### Tux Coords
+![Overlay example](https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/overlay/example.png)
 
-If you do not wish to install the overlay you can find an image with coords attached [here](https://r-placetux.github.io/place_tux/tux_coords.png).
+Installation instructions:
+
+1. Install the [Violentmonkey](https://violentmonkey.github.io/) addon/extension on your browser:
+    - [Firefox-based](https://addons.mozilla.org/addon/violentmonkey)
+    - [Chromium-based](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag) (Opera extension for [CWS compatibility](https://addons.opera.com/extensions/details/install-chrome-extensions/))
+    - [Edge](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
+3. Install [the user script](https://r-placetux.github.io/place_tux/userscript.user.js)
+
+For troubleshooting regarding the Overlay go [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay), or ask us directly on Discord / Matrix / Telegram.
+
+### Tux with Coords
+
+If you prefer not to use the Overlay, you can find an expanded image with coordinates attached [here](https://r-placetux.github.io/place_tux/tux_coords.png).
 
 ## Contributing
 
-To contribute make a pull request editing [/artwork/tux/tux.png](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/tux/tux.png). If you are a member of our alliance trying to change your asset make a PR to the related asset in [/artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies). Everything will be stitched together when you PR.
+You can propose a fix/modification to the artwork by editing [artwork/tux/tux.png](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/tux/tux.png) and posting a pull request to this repo. After we review it and accept it, the Overlay and other things will get automatically updated.
+
+If you are a member of one of our alliances trying to change your artwork, make a PR with the updated corresponding image in [/artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies).
 
 ## More information
 
@@ -23,14 +38,6 @@ Our Canvas stretches:
 (20,679)  (71,679)
 (20,758)  (71,758)
 ```
-
-## Join us..
-
-At [Discord](https://discord.gg/cYB7GjWNp8), [Matrix](https://matrix.to/#/#placetux:matrix.org), or [Telegram](https://t.me/+ykZ9LXrdFJZkNzRh)
-
-## The Git Repo for [r/placetux](https://reddit.com/r/placetux) on [r/place](https://reddit.com/r/place)
-
-We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place event.
 
 ### Canvas Size?
 
@@ -46,28 +53,28 @@ Ideally we would take up the entire 2000x1000 canvas for ourselves, but that wou
 
 - It is very fast and lightweight.
 
-- It costs exactly 0$
+- It costs exactly $0
 
 #### It's yours.
 
-- **_EVERY SINGLE ASPECT OF LINUX_** can be modified to however you want, and is only limited by hardware.
+- **_EVERY SINGLE ASPECT OF LINUX_** can be modified however you want, and is only limited by hardware.
 
 - It can look real sexy (take a look at [r/unixporn](https://reddit.com/r/unixporn/)).
 
-- You don't have a giant, monoply, money-seeking company forcing you to do what it tells you to do, making you the product (I'm looking at you Microsoft and Apple...)
+- You don't have a giant, monopoly, money-seeking company forcing you to do what it thinks is best for you, making you the product (I'm looking at you Microsoft and Apple...)
 
-- Many, many options to choose from, to customize it.
+- Many, many options to choose from and to customize your system as you see fit.
 
-- You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use arch btw).
+- You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use Arch btw).
 
-#### It's Powerful and secure.
+#### It's powerful and secure.
 
-- The command line is really good and lets you do very big things in one line, while user-friendly interfaces work well for those that don't want to use commands.
+- The command line is really good and lets you do very complex things in one line, while user-friendly graphic interfaces work well for those that don't want to use commands.
 
-- Package managers make installing software a breeze.
+- Package managers make installing software a breeze, and always from a verified malware-free source.
 
-- It's almost impossible to get a virus on it, and there are still antiviruses for it.
+- It's almost impossible to get a virus in Linux ([meme](https://twitter.com/pr0grammerhum0r/status/1252341297479741442)).
 
-- **_TONS_** of support for Linux, ask a question, and in a few minutes people will be responding.
+- **_TONS_** of support for Linux: ask a question, and in a few minutes people will be responding.
 
 - Countless other reasons.
