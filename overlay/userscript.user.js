@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         r/PlaceTux Overlay
 // @namespace    https://github.com/r-PlaceTux/place_tux
-// @version      1.0.10
+// @version      1.0.11
 // @description  FLOSS forever!
 // @author       r/PlaceTux
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
 // @license      GPL-3.0
+// @downloadURL  https://r-placetux.github.io/place_tux/userscript.user.js
 // ==/UserScript==
 if (window.top !== window.self) {
   window.addEventListener(

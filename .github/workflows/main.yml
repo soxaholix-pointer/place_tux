@@ -43,6 +43,11 @@ jobs:
       - name: Update hash
         run: echo $(git rev-parse "$GITHUB_SHA") > ./.build/bot_hash
 
+      - name: Update userscript
+        run: |
+          cp ./overlay/userscript.user.js ./.build/userscript.user.js
+          cp ./overlay/userscript-blurfix.user.js ./.build/userscript-blurfix.user.js
+
       - uses: EndBug/add-and-commit@v9
         with:
           add: "./.build"
