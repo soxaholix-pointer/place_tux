@@ -45,21 +45,10 @@ jobs:
       - name: Update hash
         run: echo $(git rev-parse "$GITHUB_SHA") > ./.build/bot_hash
 
-      - name: Commit files
-        # This will fail if no changes were made
-        continue-on-error: true
-        id: commit
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "github-actions"
-          git add ./.build
-          if [-z "$(git status --porcelain)"]; then
-             echo "::set-output name=push::false"
-          else
-             git commit -m "Add changes" -a
-             echo "::set-output name=push::true"
-          fi
-        shell: bash
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: "./.build"
+
       - name: Push changes
         # This will fail if no changes were made
         continue-on-error: true
