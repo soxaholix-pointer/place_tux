@@ -26,10 +26,13 @@ jobs:
       - name: Build tux_coords.png
         run: python coord_gen/coords.py --input ./artwork/tux/tux.png --output ./.build/tux_coords.png
 
-      - name: Build tux_combined_all.png
+      - name: Build tux_combined_tux, tux_combined_allies, tux_combined_foss & tux_combined_all.png
         run: |
           cd artwork_builder
           python gen_overlay_from_sources.py build_all.json
+          python gen_overlay_from_sources.py build_allies.json
+          python gen_overlay_from_sources.py build_foss.json
+          python gen_overlay_from_sources.py build_tux_only.json
           cd ..
 
       - name: Build tux_overlay.png
