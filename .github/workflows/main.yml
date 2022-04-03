@@ -43,7 +43,7 @@ jobs:
           cd ..
 
       - name: Update hash
-        run: md5sum ./.build/tux_raw.png > ./.build/bot_hash
+        run: echo $(git rev-parse "$GITHUB_SHA") > ./.build/bot_hash
 
       - name: Commit files
         # This will fail if no changes were made
