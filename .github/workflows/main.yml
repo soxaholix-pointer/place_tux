@@ -25,8 +25,10 @@ jobs:
           cp ./artwork/tux/tux.png ./.build/tux_raw.png
           cp ./artwork/foss/foss.png ./.build/foss_raw.png
 
-      - name: Build tux_coords.png
-        run: python coord_gen/coords.py --input ./artwork/tux/tux.png --output ./.build/tux_coords.png
+      - name: Build tux_coords.png & foss_coords.png
+        run: |
+          python coord_gen/coords.py --input ./artwork/tux/tux.png --output ./.build/tux_coords.png -x1 20 -x2 72 -y1 679 -y2 766
+          python coord_gen/coords.py --input ./artwork/foss/foss.png --output ./.build/foss_coords.png -x1 350 -x2 457 -y1 1250 -y2 1374
 
       - name: Build tux_combined_tux, tux_combined_allies, tux_combined_foss & tux_combined_all.png
         run: |
