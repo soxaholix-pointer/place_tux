@@ -1,2 +1,4 @@
 Pillow
 requests
+matplotlib
+numpy
