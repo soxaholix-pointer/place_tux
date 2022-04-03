@@ -10,20 +10,30 @@ def main():
     parser.add_argument("--input", "-i", help="Input file")
     parser.add_argument("--output", "-o", help="Output file")
 
+    parser.add_argument("-x1", help="Top left X")
+    parser.add_argument("-y1", help="Top left Y")
+    parser.add_argument("-x2", help="Bottom right X")
+    parser.add_argument("-y2", help="Bottom right Y")
+
     args = parser.parse_args()
 
     print(f"Creating an enlarged version of {args.input} with coordinates and saving it to {args.output}")
 
+    xbounds = (int(args.x1), int(args.x2))
+    ybounds = (int(args.y1), int(args.y2))
+
     build_image(
         input_path=args.input,
         output_path=args.output,
+        xbounds=xbounds,
+        ybounds=ybounds,
     )
 
 def build_image(
     input_path: str,
     output_path: str,
-    xbounds: tuple[int, int] = (20, 72), 
-    ybounds: tuple[int, int] = (679, 766),
+    xbounds: tuple[int, int], 
+    ybounds: tuple[int, int],
     text_offset: tuple[int, int] = (2, 2),
     scale: int = 32,
     grid: int = 1,
