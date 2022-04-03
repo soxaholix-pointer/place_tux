@@ -2,8 +2,6 @@ name: Place Tux CI
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   build:
