@@ -48,14 +48,8 @@ jobs:
       - uses: EndBug/add-and-commit@v9
         with:
           add: "./.build"
-
-      - name: Push changes
-        # This will fail if no changes were made
-        continue-on-error: true
-        if: steps.commit.outputs.push == 'true'
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
