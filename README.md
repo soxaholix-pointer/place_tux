@@ -5,7 +5,7 @@
 ### Overlay
 
 The overlay will render an image above the canvas showing incorrect pixels, if you would like to help out this is your best bet!
-The overlay itself and instructures to install it can be found in the [/overlay](https://github.com/r-PlaceTux/place_tux/tree/main/overlay) directory
+The overlay itself and instructions to install it can be found in the [/overlay](https://github.com/r-PlaceTux/place_tux/tree/main/overlay) directory
 
 ### Tux Coords
 
@@ -34,7 +34,7 @@ We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place 
 
 ### Canvas Size?
 
-Ideally we would take up the entire 1000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
+Ideally we would take up the entire 2000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
 
 ## Why should I use Linux?
 
