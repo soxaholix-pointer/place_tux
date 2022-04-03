@@ -22,6 +22,9 @@ jobs:
           pip install -r artwork_builder/requirements.txt
           pip install -r coord_gen/requirements.txt
 
+      - name: Build tux_raw.png
+        run: cp ./artwork/tux/tux.png ./.build/tux_raw.png
+
       - name: Build tux_coords.png
         run: python coord_gen/coords.py --input ./artwork/tux/tux.png --output ./.build/tux_coords.png
 
