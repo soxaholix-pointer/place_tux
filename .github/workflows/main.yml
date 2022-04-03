@@ -43,6 +43,8 @@ jobs:
         run: md5sum ./.build/tux_raw.png > ./.build/bot_hash
 
       - name: Commit files
+        # This will fail if no changes were made
+        continue-on-error: true
         id: commit
         run: |
           git config --local user.email "action@github.com"
@@ -56,6 +58,8 @@ jobs:
           fi
         shell: bash
       - name: Push changes
+        # This will fail if no changes were made
+        continue-on-error: true
         if: steps.commit.outputs.push == 'true'
         uses: ad-m/github-push-action@master
         with:
