@@ -21,7 +21,7 @@ if (window.top !== window.self) {
             const i = document.createElement("img");
             i.src = "https://r-placetux.github.io/place_tux/tux_overlay.png";
             i.style =
-              "position: absolute;left: 0;top: 0;image-rendering: crisp-edges;width: 1000px;height: 1000px;";
+              "position: absolute;left: 0;top: 0;image-rendering: crisp-edges;width: 2000px;height: 1000px;";
             console.log(i);
             return i;
           })()
