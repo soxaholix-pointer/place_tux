@@ -36,7 +36,7 @@ We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place 
 
 Ideally we would take up the entire 1000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
 
-### Why should I use Linux
+### Why should I use Linux?
 
 #### It respects your freedom and privacy.
 
@@ -46,9 +46,9 @@ Ideally we would take up the entire 1000x1000 canvas for ourselves, but that wou
 
 - It is very fast and lightweight.
 
-- It cost exactly 0$
+- It costs exactly 0$
 
-#### Its yours
+#### It's yours.
 
 - **_EVERY SINGLE ASPECT OF LINUX_** can be modified to however you want, and is only limited by hardware.
 
@@ -60,7 +60,7 @@ Ideally we would take up the entire 1000x1000 canvas for ourselves, but that wou
 
 - You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use arch btw).
 
-#### Its Powerful and secure.
+#### It's Powerful and secure.
 
 - The command line is really good and lets you do very big things in one line, while user-friendly interfaces work well for those that don't want to use commands.
 
