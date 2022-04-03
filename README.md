@@ -20,9 +20,9 @@ Installation instructions:
 
 For troubleshooting regarding the Overlay see [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay), or ask us directly on Discord / Matrix / Telegram.
 
-### Tux with Coords
+### Images with Coords
 
-If you prefer not to use the Overlay, you can find an expanded image with coordinates attached [here](https://r-placetux.github.io/place_tux/tux_coords.png).
+If you prefer not to use the Overlay, you can find expanded images with coordinates here: [original Tux](https://r-placetux.github.io/place_tux/tux_coords.png) | [new Tux / FOSS](https://r-placetux.github.io/place_tux/foss_coords.png)
 
 ## Contributing
 
