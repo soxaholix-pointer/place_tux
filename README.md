@@ -36,7 +36,7 @@ We aim to plan out and draw Tux and a few Distro/DE logos in the Reddit r/place 
 
 Ideally we would take up the entire 1000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
 
-### Why should I use Linux?
+## Why should I use Linux?
 
 #### It respects your freedom and privacy.
 
