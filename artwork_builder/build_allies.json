@@ -1,8 +1,6 @@
 {
-  "output_fname": "../.build/overlay_test_allies.png",
+  "output_fname": "../.build/tux_combined_allies.png",
   "width": 1000,
   "height": 1000,
-  "artwork_groups": [
-    "allies"
-  ]
+  "artwork_groups": ["allies"]
 }
