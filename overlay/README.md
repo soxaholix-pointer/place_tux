@@ -10,7 +10,7 @@ A script to overlay the correct Tux design on the [r/place canvas](https://new.r
 
 ## Troublshooting
 
-### Incorrect / outdated Overlay
+### Incorrect/Outdated Overlay
 Perform a hard refresh by doing `CTRL` + `SHIFT` + `R`. This will clear the cache for the site (will not affect cookies or other site data).
 
 ### Blurry Overlay
