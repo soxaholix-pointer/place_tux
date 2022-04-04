@@ -2,5 +2,5 @@
   "output_fname": "../.build/tux_combined_all.png",
   "width": 2000,
   "height": 2000,
-  "artwork_groups": ["tux", "allies"]
+  "artwork_groups": ["tux", "tux_button", "allies"]
 }
