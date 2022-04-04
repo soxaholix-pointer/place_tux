@@ -28,9 +28,12 @@ jobs:
 
       - name: Copy all images
         run: |
-          mkdir .build
           mkdir .build/artwork
           cp -R ./artwork/ ./.build/artwork/
+
+      - name: Set priority
+        run: |
+          cp ./priority.txt ./.build/priority
 
       - name: Build tux_coords.png
         run: |
