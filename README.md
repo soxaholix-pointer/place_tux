@@ -39,6 +39,10 @@ Our canvas corners:
 
 Ideally we would take up the entire 2000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible with a community of this size. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
 
+### Is there a wallpaper?
+
+[Yes!](https://r-placetux.github.io/place_tux/tux_wallpaper.png)
+
 ## Why should I use Linux?
 
 #### It respects your freedom and privacy

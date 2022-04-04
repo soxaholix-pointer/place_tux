@@ -19,6 +19,7 @@ jobs:
           pip install -r overlay/requirements.txt
           pip install -r artwork_builder/requirements.txt
           pip install -r coord_gen/requirements.txt
+          pip install -r wallpaper_builder/requirements.txt
 
       - name: Copy raw files
         run: |
@@ -67,6 +68,11 @@ jobs:
         run: |
           cp ./overlay/userscript.user.js ./.build/userscript.user.js
           cp ./overlay/userscript-blurfix.user.js ./.build/userscript-blurfix.user.js
+
+      - name: Generate wallpaper
+        run: |
+          cd wallpaper_builder
+          python gen_wallpaper.py ../artwork/tux/tux.png ../.build/tux_wallpaper.png 
 
       - uses: EndBug/add-and-commit@v9
         with:
