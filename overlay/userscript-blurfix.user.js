@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         r/PlaceTux Overlay Blur Fix
+// @name         r/PlaceTux Overlay
 // @namespace    https://github.com/r-PlaceTux/place_tux
 // @homepageURL  https://github.com/r-PlaceTux/place_tux/tree/main/overlay
 // @version      1.1.0
@@ -9,7 +9,7 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
 // @license      GPL-3.0
-// @downloadURL  https://r-placetux.github.io/place_tux/userscript-blurfix.user.js
+// @downloadURL  https://r-placetux.github.io/place_tux/userscript.user.js
 // ==/UserScript==
 if (window.top !== window.self) {
   window.addEventListener('load', () => {
