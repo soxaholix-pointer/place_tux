@@ -1,36 +1,29 @@
 # Tux on [r/place](https://www.reddit.com/r/place/?cx=36&cy=736&px=12)
 
-You can reach us directly on [Discord](https://discord.gg/cYB7GjWNp8), [Matrix](https://matrix.to/#/#placetux:matrix.org), or [Telegram](https://t.me/+ykZ9LXrdFJZkNzRh).
+You can reach us directly on [GitHub](https://github.com/r-PlaceTux/place_tux/issues/new/choose), [Discord](https://discord.gg/cYB7GjWNp8), [Matrix](https://matrix.to/#/#placetux:matrix.org), or [Telegram](https://t.me/+ykZ9LXrdFJZkNzRh).
 
 ## Tools
 
 ### Overlay
 
-If you would like to help us place Tux, we highly recommend you use our Overlay! It's a [userscript](https://wikipedia.org/wiki/Userscript) that runs through a [browser extension](https://en.wikipedia.org/wiki/Browser_extension) that will render an image on top of the r/place canvas showing incorrect pixels:
+If you would like to help us place Tux, we highly recommend you use our overlay! It's a [userscript](https://wikipedia.org/wiki/Userscript) that runs through a [browser extension](https://en.wikipedia.org/wiki/Browser_extension) that will render an image on top of the r/place canvas showing incorrect pixels:
 
 ![Overlay example](https://raw.githubusercontent.com/r-PlaceTux/place_tux/main/overlay/example.png)
 
-Installation instructions:
+You can find the installation instructions [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay#installation).
 
-1. Install the [Violentmonkey](https://violentmonkey.github.io/) addon/extension on your browser:
-    - [Firefox-based](https://addons.mozilla.org/addon/violentmonkey)
-    - [Chromium-based](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag) (Opera extension for [CWS compatibility](https://addons.opera.com/extensions/details/install-chrome-extensions/))
-    - [Edge](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/eeagobfjdenkkddmbclomhiblgggliao)
-3. Install [the user script](https://r-placetux.github.io/place_tux/userscript.user.js)
+For troubleshooting regarding the overlay see [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay#troublshooting), or ask us directly on Discord/Matrix/Telegram.
 
-For troubleshooting regarding the Overlay see [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay), or ask us directly on Discord / Matrix / Telegram.
+### Coordinate Guide
 
-### Images with Coords
-
-If you prefer not to use the Overlay, you can find expanded images with coordinates here: [original Tux](https://r-placetux.github.io/place_tux/tux_coords.png) | [new Tux / FOSS](https://r-placetux.github.io/place_tux/foss_coords.png)
+If you prefer not to use our overlay, you can check out the [coordinate guide](https://github.com/r-PlaceTux/place_tux/tree/main/overlay#coordinate-guide).
 
 ## Contributing
 
-You can propose a fix/modification to the artwork by editing [artwork/tux/tux.png](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/tux/tux.png) and posting a pull request to this repo. After we review it and accept it, the Overlay and other things will get automatically updated.
+You can propose a modification to the artwork by submitting a [pull request](https://github.com/r-PlaceTux/place_tux/compare) for [artwork/tux/tux.png](https://github.com/r-PlaceTux/place_tux/blob/main/artwork/tux/tux.png). After we review and accept it, your change(s) will automatically be deployed.\
+If you are an ally trying to change your artwork, [PR](https://github.com/r-PlaceTux/place_tux/compare) your corresponding artwork with the updated image in [artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies)
 
-If you are a member of one of our alliances trying to change your artwork, make a PR with the updated corresponding image in [artwork/allies/](https://github.com/r-PlaceTux/place_tux/tree/main/artwork/allies)
-
-To change the anchor point of an artwork, modify the x0,y0 values in the corresponding entry in positions.json.
+To change the anchor point of any piece, change the coordinate values in the corresponding entry in your `positions.json`.
 
 You can find the official color palette [here](https://github.com/r-PlaceTux/place_tux/tree/main/overlay#color-palette).
 
@@ -44,13 +37,13 @@ Our canvas corners:
 ```
 ### Canvas Size?
 
-Ideally we would take up the entire 2000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
+Ideally we would take up the entire 2000x1000 canvas for ourselves, but that would make other communities sad... And it's also impossible with a community of this size. We would create 3 progressively larger pixel arts (a 50x50, a 75x75 and a 100x100 version) for Tux and Distro/DE. We would draw the appropriate one in r/place, based on territory gained.
 
 ## Why should I use Linux?
 
 #### It respects your freedom and privacy.
 
-- You can see every line of code it uses, so you can be sure there is no backdoor or keylogger. (The NSA tried 3 times to get a backdoor into linux, but failed)
+- You can see every line of code it uses, so you can be sure there is no backdoor or keylogger (The NSA tried 3 times to get a backdoor into linux, but failed).
 
 #### It runs on older computers, saving them from the landfill.
 
@@ -68,7 +61,7 @@ Ideally we would take up the entire 2000x1000 canvas for ourselves, but that wou
 
 - Many, many options to choose from and to customize your system as you see fit.
 
-- You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use Arch btw).
+- You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use Arch BTW).
 
 #### It's powerful and secure.
 
