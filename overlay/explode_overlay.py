@@ -9,19 +9,10 @@ try:
 except FileExistsError:
     pass
 
-p = plt.imread("overlay_raw.png")
+raw = plt.imread("overlay_raw.png")
 
-newImage = numpy.zeros((len(p) * 3, len(p[0]) * 3, 4), dtype=numpy.float32)
+overlay = numpy.zeros((len(raw) * 3, len(raw[0]) * 3, 4), dtype=numpy.float32)
 
+overlay[1::3, 1::3, :] = raw
 
-# convert a point on the true image to a point on the exploded image
-def fix_pos(pos):
-    return pos * 3 + 1
-
-
-for row in range(len(p)):
-    for tile in range(len(p[row])):
-        for i in range(len(p[row][tile])):
-            newImage[fix_pos(row)][fix_pos(tile)][i] = p[row][tile][i]
-
-plt.imsave("out/overlay.png", newImage, dpi=100, format="png")
+plt.imsave("out/overlay.png", overlay, dpi=100, format="png")
