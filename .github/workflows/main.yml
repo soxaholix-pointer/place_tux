@@ -28,7 +28,6 @@ jobs:
 
       - name: Copy all images
         run: |
-          mkdir .build/artwork
           cp -R ./artwork/ ./.build/artwork/
 
       - name: Set priority
