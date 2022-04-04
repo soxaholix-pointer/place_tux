@@ -1,5 +1,10 @@
 [
   {
+    "img_url": "cosmere.png",
+    "x0": 0,
+    "y0": 0
+  },
+  {
     "img_url": "chatot.png",
     "x0": 72,
     "y0": 743
