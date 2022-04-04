@@ -22,7 +22,7 @@ jobs:
 
       - name: Copy raw files
         run: |
-          mkdir .build
+          mkdir -p .build
           cp ./artwork/tux/tux.png ./.build/tux_raw.png
 
 

@@ -2,12 +2,6 @@
 
 import matplotlib.pyplot as plt
 import numpy
-import os
-
-try:
-    os.mkdir("out")
-except FileExistsError:
-    pass
 
 raw = plt.imread("overlay_raw.png")
 
