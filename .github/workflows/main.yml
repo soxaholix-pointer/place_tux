@@ -25,6 +25,16 @@ jobs:
           mkdir .build
           cp ./artwork/tux/tux.png ./.build/tux_raw.png
 
+
+      - name: Copy all images
+        run: |
+          mkdir .build/artwork
+          cp -R ./artwork/ ./.build/artwork/
+
+      - name: Set priority
+        run: |
+          cp ./priority.txt ./.build/priority
+
       - name: Build tux_coords.png
         run: |
           python coord_gen/coords.py --input ./artwork/tux/tux.png --output ./.build/tux_coords.png -x1 20 -x2 72 -y1 679 -y2 766
