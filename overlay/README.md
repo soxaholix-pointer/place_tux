@@ -54,4 +54,4 @@ Overlay and script edits are accepted, but please do not modify the Tux design u
 `#FFFFFF` white  
 
 ## Coordinate Guide
-![Coordinate Guide](https://r-placetux.github.io/place_tux/tux_coords.png)
+![coordinate guide](https://r-placetux.github.io/place_tux/tux_coords.png)
