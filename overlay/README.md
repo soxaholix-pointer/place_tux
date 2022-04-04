@@ -17,7 +17,7 @@ Perform a hard refresh by doing `CTRL` + `SHIFT` + `R`. This will clear the cach
 If the overlay looks blurry for you, use [this fix](https://r-placetux.github.io/place_tux/userscript-blurfix.user.js). Note that you'll also need to uninstall the normal version of the userscript.
 
 ## Contributing
-Overlay and script edits are accepted, but please do not modify the Tux design unless it's incorrect. Open a [pull request](https://github.com/r-PlaceTux/overlay/compare) and we'll review it.
+See [r-PlaceTux/place_tux#contributing](https://github.com/r-PlaceTux/place_tux#contributing).
 
 ## Color Palette
 `#6D001A` burgundy  
