@@ -41,21 +41,21 @@ Ideally we would take up the entire 2000x1000 canvas for ourselves, but that wou
 
 ## Why should I use Linux?
 
-#### It respects your freedom and privacy.
+#### It respects your freedom and privacy
 
 - You can see every line of code it uses, so you can be sure there is no backdoor or keylogger (The NSA tried 3 times to get a backdoor into linux, but failed)
 
-#### It runs on older computers, saving them from the landfill.
+#### It runs on older computers, saving them from the landfill
 
 - It is very fast and lightweight
 
 - It costs exactly $0
 
-#### It's yours.
+#### It's yours
 
 - **_EVERY SINGLE ASPECT OF LINUX_** can be modified however you want, and is only limited by hardware
 
-- It can look real sexy (take a look at [r/unixporn](https://reddit.com/r/unixporn/)).
+- It can look real sexy (take a look at [r/unixporn](https://reddit.com/r/unixporn/))
 
 - You don't have a giant, monopoly, money-seeking company forcing you to do what it thinks is best for you, making you the product (I'm looking at you Microsoft and Apple...)
 
@@ -63,7 +63,7 @@ Ideally we would take up the entire 2000x1000 canvas for ourselves, but that wou
 
 - You get to brag about how smart you are when a Windoze user sees you "hAcKIng" (I use Arch BTW)
 
-#### It's powerful and secure.
+#### It's powerful and secure
 
 - The command line is really good and lets you do very complex things in one line, while user-friendly graphic interfaces work well for those that don't want to use commands
 
