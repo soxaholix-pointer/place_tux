@@ -2,7 +2,7 @@
 // @name         r/PlaceTux Overlay
 // @namespace    https://github.com/r-PlaceTux/place_tux
 // @homepageURL  https://github.com/r-PlaceTux/place_tux/tree/main/overlay
-// @version      1.0.15
+// @version      1.1.0
 // @description  FLOSS forever!
 // @author       r/PlaceTux
 // @match        https://hot-potato.reddit.com/embed*
