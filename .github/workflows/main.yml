@@ -45,6 +45,12 @@ jobs:
           cp ./out/overlay.png ../.build/tux_overlay.png
           cd ..
 
+      - name: Build tux_overlay_mask
+        run: |
+          cd overlay
+          python create_mask.py ../.build/tux_combined_all.png ../.build/tux_combined_all_mask.png
+          cd ..
+
       - name: Update hash
         run: echo $(git rev-parse "$GITHUB_SHA") > ./.build/bot_hash
 
